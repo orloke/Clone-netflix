@@ -1,0 +1,101 @@
+:root{
+    --vermelho:#e50914;
+    --preta:#141414;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--preta);
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+header .logo{
+    color: var(--vermelho);
+    font-family: 'Arial Black', Times;
+    font-size: 40px;
+}
+
+header .container{ 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;    
+}
+
+header nav a{
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 30px;
+    
+}
+
+header nav a:hover{
+    color: #fff;
+}
+
+.filme-principal{
+    font-size: 16px;
+    background:linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../img/img1.jpg');
+    background-position: center;
+    height: 500px;
+    background-size: 1400px 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;        
+}
+
+.filme-principal .description{
+    margin-bottom: 40px;
+    margin-top: 15px;
+}
+
+.titulo{
+    font-size: 40px;
+}
+
+.botao{
+    background-color: rgba(0,0,0,.50);
+    color: white;
+    padding: 15PX;
+    font-size: 12px;
+    cursor: pointer;
+    margin-right: 15px;
+}
+
+.botao:hover{
+    background-color: var(--vermelho);
+    color: black;
+}
+
+.botao i{
+    margin-right: 15px;
+}
+
+.container{
+    margin-left: 20px;
+    padding-bottom: 20px;
+    margin-right: 9px;
+}
+
+.filme-principal .container{
+    width: 50%;
+}
+
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display:block;
+    margin-top: 30px;
+
+}
+
+.filme-principal .link{
+    color: white;
+    text-decoration: none;
+}
